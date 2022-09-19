@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from COIPS import pre_processing, quality_assessment, FAZ_segmentation, segmentation_processing, visualization_and_report
+import pre_processing, quality_assessment, FAZ_segmentation, segmentation_processing, visualization_and_report
 from utils import logger_create
 from config import vascular_layer, img_size
 
