@@ -4,11 +4,11 @@ import SimpleITK as sitk
 from PIL import Image
 import numpy as np
 import cv2
-from COIPS.utils import maybe_mkdir, subfilename, subFiles
+from utils import maybe_mkdir, subfilename, subFiles
 import os
 from tqdm import tqdm
-from COIPS.config import base_dir, project_name
-from COIPS.config import img_size
+from config import base_dir, project_name
+from config import img_size
 
 csv_path = os.path.join(base_dir, 'report')
 
