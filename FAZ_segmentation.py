@@ -3,10 +3,10 @@ import torch
 from nnunet.inference.predict import preprocess_multithreaded, check_input_folder_and_return_caseIDs
 from nnunet.inference.segmentation_export import save_segmentation_nifti_from_softmax
 from nnunet.training.model_restore import load_model_and_checkpoint_files
-from COIPS.utils import subfilename, join, load_pickle, maybe_mkdir, isfile, subFiles
+from utils import subfilename, join, load_pickle, maybe_mkdir, isfile, subFiles
 from multiprocessing import Pool
 import numpy as np
-from COIPS.config import overwrite_existing, pool_num
+from config import overwrite_existing, pool_num
 from config import base_dir, model_dir, img_size
 
 
