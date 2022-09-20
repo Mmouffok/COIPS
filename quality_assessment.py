@@ -12,7 +12,7 @@ from SwinTransformer import build_SwinT
 from pre_processing import processed_png_folder0
 
 test_dir = os.path.join(base_dir, 'processed_OCTA_images')
-device = torch.device("cuda:0")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 report_dir = os.path.join(base_dir, 'report')
 
