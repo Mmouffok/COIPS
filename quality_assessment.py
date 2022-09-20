@@ -3,9 +3,9 @@ import os
 import torch
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-from COIPS.config import base_dir, batch_size, project_name, img_size, vascular_layer, model_dir
+from config import base_dir, batch_size, project_name, img_size, vascular_layer, model_dir
 from tqdm import tqdm
-from COIPS.utils import maybe_mkdir, subfilename
+from utils import maybe_mkdir, subfilename
 import shutil
 from timm.data.transforms import _pil_interp
 from SwinTransformer import build_SwinT
