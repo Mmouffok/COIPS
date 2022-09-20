@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import cv2
-from COIPS.utils import subFiles, maybe_mkdir
-from COIPS.config import base_dir
+from utils import subFiles, maybe_mkdir
+from config import base_dir
 import shutil
 import os
 from tqdm import tqdm
