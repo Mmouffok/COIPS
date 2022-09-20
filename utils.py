@@ -4,7 +4,7 @@ import pickle
 import sys
 import logging
 from termcolor import colored
-from COIPS.config import base_dir
+from config import base_dir
 
 
 def subFiles(folder, prefix=None, suffix=None, subdir=False):
