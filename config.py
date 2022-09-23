@@ -9,7 +9,7 @@ batch_size = 32
 # name of the project
 project_name = '6x6'
 # image size: 3 (means 3 x 3) or 6 (means 6 x 6)
-img_size = 6
+img_size = 3
 # vascular layer (superficial: 0 or deep: 1)
 vascular_layer = 0
 # if overwrite the segmentation results when you rerun the program
