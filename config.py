@@ -15,4 +15,4 @@ vascular_layer = 0
 # if overwrite the segmentation results when you rerun the program
 overwrite_existing = True
 # multiprocessing pools
-pool_num = 1
+pool_num = 4
